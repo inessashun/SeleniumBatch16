@@ -1,0 +1,39 @@
+        CSS Selector
+
+Syntax:
+
+        tagname[attribute = 'attribute value']
+
+limitation : u cant use text with CSS selector
+
+
+Shortcuts are there in CSS selector that can be used to locate an element
+
+a.Shortcut for className --> "."
+		tagName[class='attribute value'] ----->tagName.attribute Value
+
+
+b.Shortcut for ID -- "#"
+        tagName[id='attribute value'] ----->tagName#attribute Value
+
+
+c.we have a contains method in CSS as well
+		*  represents contains
+		tagname[attribute *= 'partial attribute value']
+
+
+d. we have a starts with method in Css as well
+        ^ sign represents the starts with
+        tagname[attribute ^= 'starting attribute value']
+
+
+e. we have a ends with methods also in CSS
+
+        $ symbol represents ends-with method in css
+		tagname[attribute $= 'ending attribute value']
+
+        ************
+FOCUS SHOULD BE ON :
+		writing the locator that gets us the unqiue value
+		also we should make sure at our end that the future changes
+		will most probably not effect our xpath (try your best in this)

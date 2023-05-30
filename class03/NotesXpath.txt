@@ -1,0 +1,43 @@
+*Notes class 03**
+
+Xpath:
+
+1. absolute xpath --> starts with / and the root node (it is not widely used because the tree might change)
+2.Relative Xpath
+
+  a.Attribute
+      a.1   //tagname[@attribute='value']
+
+      Contains  methods in attribute
+      a.2   //tagname[contains(@attribute, 'partial attribute value')]
+
+      startsWith  method in attribute
+
+      a.3  //tagname[starts-with(@attribute, 'partial starting attribute value')]
+
+  b.Text
+      b.1   //tagname[text()="value"]
+
+       Contains  methods in attribute
+
+      b.2  //tagname[contains(text(), 'partial attribute value')]
+
+       startsWith  method in text
+
+       b.3 //tagname[starts-with(text(), 'partial starting attribute value')]
+
+ Notes:
+     1. if u are unable to write down the unqiue xpath (no matter u tried to use various avialable xpath)
+     then u can use
+        Indexing to select your desired one
+
+        * (//tagname[@attribute='value'])[index Number]    ---> Index number starts with 1
+
+     2.  use the contains or starts with only when
+          1. the text or attribute is  containing a dynamic  part  and u are left with no other option
+
+          2. the text or attribute is long enough (and you are sure that it will always remain unique)
+
+
+
+          ---------------------------------------------------------------------------------------
