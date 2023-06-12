@@ -25,8 +25,8 @@ public class MultiDD extends CommonMethods {
         Select sel=new Select(DD);
 
 //        check if the dropdown  multiselect
-        boolean isMul = sel.isMultiple();
-        System.out.println("the drop down is multi select :"+isMul);
+        boolean isMulti = sel.isMultiple();
+        System.out.println("the drop down is multi select :"+isMulti); //true
 
         sel.selectByVisibleText("California");
 
